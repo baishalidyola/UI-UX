@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f0f2f5;
+}
+
+.navigation{
+  background-color: #3b5998;
+  color: white;
+  padding: 10px 10px;
+  gap:20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 60px;
+}
+.name{
+    display:flex;
+    gap:15px;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.name p{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 0px;
+  width: 300px;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(235, 241, 243);
+  gap: 20px;
+  /* overflow-x:hidden; */
+  /* max-width: 100%; */
+}
+.left-content, .middle-alignment, .right-alignment{
+  height: 100vh;
+  overflow-y:hidden;
+}
+.left-content:hover, .middle-alignment:hover, .right-alignment:hover{
+  overflow-y:auto;
+}
+
+
+.profile{
+  display:flex;
+  align-items:center;
+  gap: 12px;
+}
+img[alt="user"]{
+ width: 50px;
+  height: 50px;
+  border-radius: 130%;
+  /* margin-right: 10px; */
+}
+.left-content{
+ 
+  padding:15px;
+  width:20%;
+  height: 100vh;
+  /* overflow-y:auto; */
+  position:sticky;
+  top:0;
+  border: 2px solid rgb(235, 241, 243);
+  background-color:rgb(235, 241, 243);;
+}
+.middle-alignment{
+  padding:0px;
+  width:50%;
+  gap:20px;
+  display:flex;
+  flex-direction: column;
+  
+}
+h3{
+  color:rgb(106, 106, 106);
+}
+
+.Stories{
+  padding:10px;
+  /* margin-left: 8rem; */
+  /* background-color:rgb(235, 241, 240); */
+}
+.status{
+  padding:20px;
+  gap:30px;
+  border:2px solid white;
+  background-color: rgb(252, 254, 254);
+  border-radius: 5px;
+  /* margin-left: 8rem; */
+}
+
+.status button{
+  background-color: rgb(202, 200, 200);
+  color:rgb(96, 95, 95);
+  border-radius:5px;
+  padding:7px;
+}
+.post{
+  padding:20px;
+  /* margin-left:8rem; */
+  background-color:rgb(252, 254, 254);
+}
+.post img[alt="user3"]{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+}
+h4{
+  padding:10px;
+  color:rgb(85, 64, 246);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+p{
+  font-size:13px;
+  padding:10px;
+}
+pre{
+  word-spacing: 13px;
+}
+.right-alignment{
+  width:30%;
+  padding:15px;
+  display:flex;
+  background-color: rgb(235, 241, 243);
+  flex-direction: column;
+  gap:20px;
+}
+/* 
+.Stories{
+  padding:15px;
+  margin-left: 8rem;
+  text-align:center;
+} */
+.suggestion{
+  background-color:rgb(252, 254, 254);
+  padding:15px;
+  border-radius:8px;
+  text-align:center;
+
+}
+.suggestion img{
+  width:100%;
+  border-radius:8px;
+}
+.contacts img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* vertical-align: middle;
+  margin-right: 10px; */
+}
+.contacts p {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* padding: 5px 0; */
+}
+
+
+
+/* height ra width same hunu parcha icon ko lagi ani border-radius:50% jati haley ni hune */
+

@@ -1,0 +1,37 @@
+*{
+    margin:0;
+}
+body{
+    background-color:rgb(134, 131, 131);
+}
+a{
+    color:white;
+}
+header{
+    height:75px;
+    background-color: black;
+    alignment-baseline:center;
+}
+nav, ul{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+nav input [type="search"]{
+    background-color:rgb(144, 140, 140);
+    border:1rem;
+    border:none;
+    outline:none;
+    padding: 8px 0;
+}
+ul{
+    list-style-type:none;
+}
+.center_nav{
+    /* background-color:red; */
+    width:30%;
+}
+.left_nav{
+    column-gap: 1rem;
+
+}
