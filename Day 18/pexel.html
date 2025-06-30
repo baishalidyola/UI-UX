@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pexels</title>
+    <style>
+        .tabs{
+            display:flex;
+            justify-content:center;
+        }
+        ul{
+            display:flex;
+            column-gap: 1.5rem;
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color:rgb(64, 64, 64);
+            /* font-weight:bold; */
+        }
+        #active_nav{
+            background-color: black;
+            padding:5px 10px;
+            border-radius:1rem;
+            color:white;
+        }
+        .gallery{
+            display:flex;
+            /* justify-content:row; */
+            justify-content:center;
+            gap: 2rem;
+            flex-wrap:wrap;
+        }
+        .mini_gallery{
+            height: 350px;
+            width:300px;
+        }
+        img{
+            height:100%;
+            width:100%;
+        }
+        img[alt="gallery1"]{
+            border-radius:10px;
+        }
+    </style>
+</head>
+<body>
+    <section class="tabs">
+        <ul>
+            <li><a href="Home" id="active_nav"> Home</a></li>
+            <li><a href="Videos">Videos</a></li>
+            <li><a href="Leaderboard">Leaderboard</a></li>
+            <li><a href="Challenges"> Challenges</a></li>
+        </ul>
+
+    </section>
+    <section class="gallery">
+        <div class="mini_gallery">
+            <img src="https://images.pexels.com/photos/31098335/pexels-photo-31098335.jpeg" alt="gallery1"> </div>
+        <div class="mini_gallery">
+            <img src="https://images.pexels.com/photos/31098335/pexels-photo-31098335.jpeg" alt="gallery1"> </div>
+        <div class="mini_gallery">
+            <img src="https://images.pexels.com/photos/31098335/pexels-photo-31098335.jpeg" alt="gallery1"> </div>
+        <div class="mini_gallery">
+            <img src="https://images.pexels.com/photos/31098335/pexels-photo-31098335.jpeg" alt="gallery1"> </div>
+        <div class="mini_gallery">
+            <img src="https://images.pexels.com/photos/31098335/pexels-photo-31098335.jpeg" alt="gallery1"> </div>
+        <div class="mini_gallery">
+            <img src="https://images.pexels.com/photos/31098335/pexels-photo-31098335.jpeg" alt="gallery1"> </div>
+        <div class="mini_gallery">
+            <img src="https://images.pexels.com/photos/31098335/pexels-photo-31098335.jpeg" alt="gallery1"> </div>
+        <div class="mini_gallery">
+            <img src="https://images.pexels.com/photos/31098335/pexels-photo-31098335.jpeg" alt="gallery1"> </div>
+    </section>
+</body>
+</html>

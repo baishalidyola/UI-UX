@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height:200px;
+            width:190px;
+            background-color: rgb(226, 135, 135);
+            transition-property:height;
+            transition-duration: 2s;
+            /* transition-delay:2s; */
+            /* transition-timing-function: ease-out; */
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+        .box:hover{
+            background-color: rgb(66, 17, 3);
+            cursor:pointer;
+            height:300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

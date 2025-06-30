@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        * {
+            padding: 0;
+            margin: 0;
+            background-color:rgb(240, 244, 225);
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        img {
+            height: 400px;
+            width: 450px;
+            animation-name:identifier ;
+            animation-duration:1s;
+            animation-iteration-count:infinite;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes identifier {
+            from {
+                margin-bottom:200px;
+                /* margin-right:200px; */
+                
+            }
+
+            to {
+                /* margin-right:200px; */
+                margin-top: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="https://yogapractice.com/wp-content/uploads/2020/11/What-is-a-Yogi-The-True-Meaning-and-How-to-Become-One-800x498.jpg"
+            alt="yogi">
+    </div>
+</body>
+
+</html>

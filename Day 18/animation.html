@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height:150px;
+            width:150px;
+            background: rgb(239, 239, 243);
+            /* transition:all 2s; */
+            animation-name:identifier ;
+            animation-duration:2s;
+            animation-iteration-count:infinite;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+        
+        /* .box:hover{
+            margin-top:200px;
+        } */
+         /* @keyframes identifier {
+            from{
+                background-color: rgb(57, 57, 143);
+            }
+            to{
+                background-color:rgb(145, 42, 42);
+                margin-top:200px;
+            }
+         }  */
+         @keyframes identifier {
+            0%{
+                background-color: rgb(57, 57, 143);
+            }
+            25%{
+                background-color: green;
+            }
+            50%{
+                background-color: rgb(0, 12, 0);
+            }
+            75%{
+                background-color: rgb(167, 29, 132);
+            }
+            100%{
+                background-color:rgb(145, 42, 42);
+                margin-top:200px;
+            }
+         }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(247, 247, 238);
+}
+
+/* Portfolio banner */
+.portfolio {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* NEW */
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+
+}
+
+
+.portfolio img {
+  max-width: 100%;
+  height: auto;
+}
+
+.name {
+  position: absolute;
+  bottom: 40px;
+  right: 120px;
+  font-size: 22px;
+  color: #333;
+}
+
+/* nav bar */
+
+.navbar {
+  background-color: rgb(247, 247, 238);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0px 0px 10px 3px rgb(226, 226, 209);
+  ;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 10px;
+  color: #333;
+}
+
+.navbar ul li a:hover {
+  color: #ff0066;
+  border-bottom: 2px solid #ff0066;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border:3px solid red; */
+  padding: 20px;
+  height: 100vh;
+  gap: 40px;
+  /* background-color: rgb(247, 247, 238); */
+}
+
+img[alt="user1"] {
+  width: 400px;
+  height: 400px;
+  /* border-radius:150%; */
+  /* border:2px solid blue; */
+}
+
+.image {
+  width: 50%;
+  /* padding:120px; */
+  margin-left: 150px;
+  /* border:2px solid green; */
+}
+
+.introduction {
+  /* border:3px solid green; */
+  width: 50%;
+  padding: 20px;
+  margin-right: 150px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+}
+.text{
+  font-size:28px;
+}
+.skill{
+  display:flex;
+  flex-direction:row;
+  /* border: 2px solid red; */
+  align-items:center;
+  height:100vh;
+ 
+}
+.content{
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+  /* border:2px solid green; */
+  width: 50%;
+  padding: 20px;
+  gap: 40px;
+  margin-left:150px;
+  
+}
+.bar {
+  box-shadow: 0px 0px 13px 0px grey;
+  width: 500px;
+  padding: 1rem;
+  border-radius: 10px;
+  
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.minibar {
+  height: 5px;
+  border-radius: 3px;
+  background-color: blue;
+  width: 80%;
+}
+.minibar1{
+  height: 5px;
+  border-radius: 3px;
+  background-color: blue;
+  width: 75%;
+}
+.minibar2 {
+  height: 5px;
+  border-radius: 3px;
+  background-color: blue;
+  width: 60%;
+}
+.minibar3 {
+  height: 5px;
+  border-radius: 3px;
+  background-color: blue;
+  width: 80%;
+}
+img[alt="user2"]{
+  width: 400px;
+  height: 400px;
+}
+.image1{
+  margin-top:90px;
+   width: 50%;
+  /* padding:120px; */
+  margin-left: 150px;
+  /* border:2px solid blue; */
+}
+
+/* svg position absolute rakhera hera */
