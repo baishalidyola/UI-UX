@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive design</title>
+    <style>
+        *{
+            margin:0;
+        }
+        /* orientation
+        landscape: height < Long width(eg:laptop)
+        portrait: height > width {eg:phone} */
+
+        .box{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-content:start;
+            flex-wrap:wrap;
+            width:100vw;
+            gap:20px;
+            background-color:rgb(204, 251, 248)
+        }
+        .minibox{
+            
+            height:150px;
+            width:150px;
+            border: 3px solid black;
+            color:rgb(15, 0, 0);
+            text-align:center;
+            align-content:center;
+            
+        }
+        /* @media screen and (min-width:768px) {
+            .box{
+                background-color:rgb(246, 178, 189);
+                color:green;
+            }
+        } */
+        /* @media screen and (max-width:768px) {
+            .box{
+                background-color:rgb(246, 178, 189);
+                
+            }
+        } */
+        @media screen and (orientation:portrait) {
+            .box{
+                background-color:rgb(246, 178, 189);
+                /* color:green; */
+            }
+            .minibox{
+                border:4px solid rgb(201, 207, 7);
+                background-color: rgb(230, 237, 187);
+                font-size:70px;            
+            }
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="minibox">1</div>
+        <div class="minibox">2</div>
+        <div class="minibox">3</div>
+        <div class="minibox">4</div>
+        <div class="minibox">5</div>
+        <div class="minibox">6</div>
+        <div class="minibox">7</div>
+        <div class="minibox">8</div>
+    </div>
+</body>
+</html>

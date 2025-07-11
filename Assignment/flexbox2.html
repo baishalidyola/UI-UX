@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flexbox2</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+     
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      justify-content:center;
+      gap: 10px;
+      padding: 20px;
+      margin:20px;
+      background-color: #f0f0f0;
+      height:80%;
+      width: 50%;
+      border:3px solid rgb(17, 1, 1);
+    }
+
+    .row {
+      display: flex;
+      gap: 10px;
+    }
+
+    .child {
+      border: 3px solid rgb(50, 50, 50);
+      background-color: rgb(230, 209, 209);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: sans-serif;
+      font-size: 1.2em;
+    }
+
+    .child1, .child4 {
+      width: 200px;
+      height: 100px;
+    }
+
+    .child2, .child3 {
+      width: 200px;
+      height: 50px;
+    }
+
+    .child5 {
+      width: 420px;
+      height: 200px;
+    }
+
+    .child6, .child7, .child8 {
+      width: 200px;
+      height: 50px;
+    }
+
+    .child9, .child10 {
+      width: 310px;
+      height: 150px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Top row -->
+    <div class="row">
+      <div class="child child1">child 1</div>
+      <div>
+        <div class="child child2">child 2</div>
+        <div class="child child3">child 3</div>
+      </div>
+      <div class="child child4">child 4</div>
+    </div>
+
+    <!-- Middle row -->
+    <div class="row">
+      <div class="child child5">child 5</div>
+      <div>
+        <div class="child child6">child 6</div>
+        <div class="child child7">child 7</div>
+        <div class="child child8">child 8</div>
+      </div>
+    </div>
+
+    <!-- Bottom row -->
+    <div class="row">
+      <div class="child child9">child 9</div>
+      <div class="child child10">child 10</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text{
+            font-weight:bold;
+           
+        }
+        .container{
+            display:flex;
+            gap:20px;
+            flex-direction:column;
+        }
+        .bar{
+            width:500px;
+            padding:8px;
+            border-radius:2rem;
+            border:2px solid grey;
+           
+        }
+        .progress{
+            background-color:rgb(10, 37, 241);
+            color:white;
+            text-align:center;
+            border-radius:1rem;
+            padding:10px 0;
+            width:50%;
+            animation-name:moveProgressBar;
+            animation-duration:2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes moveProgressBar{
+            from{
+                width:0;
+            }
+            to{
+                width:100%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="text">HTML5</div>
+    <div class="bar">
+        <div class="progress">
+            loading...
+        </div>
+    </div>
+    <div class="text">CSS</div>
+    <div class="bar">
+        <div class="progress">
+            loading...
+        </div>
+    </div>
+    <div class="text">JAVASCRIPT</div>
+    <div class="bar">
+        <div class="progress">
+            loading...
+        </div>
+    </div>
+    <div class="text">PYTHON</div>
+    <div class="bar">
+        <div class="progress">
+            loading...
+        </div>
+    </div>
+</div>
+</body>
+</html>
